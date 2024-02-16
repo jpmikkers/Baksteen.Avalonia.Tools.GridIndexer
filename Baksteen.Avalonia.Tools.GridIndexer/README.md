@@ -43,4 +43,4 @@ The following XAML results in the grid below:
 </Grid>
 ```
 
-
+![screenshot](screenshot.png "screenshot")

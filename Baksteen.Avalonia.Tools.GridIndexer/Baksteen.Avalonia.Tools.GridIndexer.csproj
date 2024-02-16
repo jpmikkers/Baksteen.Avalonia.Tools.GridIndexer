@@ -1,37 +1,41 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Title>Baksteen.Avalonia.Tools.GridIndexer</Title>
-	<VersionPrefix>0.1.0</VersionPrefix>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Copyright>Copyright (c) JPMikkers, Andrew KeepCoding 2024</Copyright>
-	<PackageProjectUrl>https://github.com/jpmikkers/Baksteen.Avalonia.Tools.GridIndexer</PackageProjectUrl>
-	<PackageIcon>icon.png</PackageIcon>
-	<Description>GridIndexer automatically arranges children in a Grid. This is an Avalonia port of Anrew KeepCoding's AK.Toolkit.WinUI3.GridIndexer</Description>
-	<PackageTags>avalonia;grid;autoarrange;xaml</PackageTags>
-	<PackageReleaseNotes>First release</PackageReleaseNotes>
-	<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Avalonia.Tools.GridIndexer.git</RepositoryUrl>
-	<IncludeSymbols>False</IncludeSymbols>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>Baksteen.Avalonia.Tools.GridIndexer</Title>
+		<VersionPrefix>0.1.0</VersionPrefix>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Copyright>Copyright (c) JPMikkers, Andrew KeepCoding 2024</Copyright>
+		<PackageProjectUrl>https://github.com/jpmikkers/Baksteen.Avalonia.Tools.GridIndexer</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<Description>GridIndexer automatically arranges children in a Grid. This is an Avalonia port of Andrew KeepCoding's AK.Toolkit.WinUI3.GridIndexer</Description>
+		<PackageTags>avalonia;grid;autoarrange;xaml</PackageTags>
+		<PackageReleaseNotes>First release</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/jpmikkers/Baksteen.Avalonia.Tools.GridIndexer.git</RepositoryUrl>
+		<IncludeSymbols>False</IncludeSymbols>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.9" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="11.0.9" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Update="icon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Update="icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="screenshot.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>

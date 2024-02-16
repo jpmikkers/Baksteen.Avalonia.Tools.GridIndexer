@@ -1,5 +1,6 @@
 # Baksteen.Avalonia.Tools.GridIndexer
-This avalonia component automatically arranges components on a Grid
+This avalonia component automatically arranges components on a Grid. 
+This is an Avalonia port (with minor changes) of [Andrew KeepCoding's](https://github.com/AndrewKeepCoding) WinUI3 [GridIndexer](https://github.com/AndrewKeepCoding/AK.Toolkit)
 
 ## How to use
 - Add nuget package Baksteen.Avalonia.Tools.GridIndexer

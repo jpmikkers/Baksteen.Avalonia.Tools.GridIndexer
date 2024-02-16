@@ -50,10 +50,6 @@
 		<Label ex:GI.Row="-1">↑B</Label>
 		<Label ex:GI.Column="+1">→B</Label>
 		<Label ex:GI.Column="+1">→B</Label>
-
-		<!--<Label Grid.Row="0" Grid.Column="0">lefttop</Label>
-        <Label Grid.Row="2" Grid.Column="2">center</Label>
-        <Label Grid.Row="4" Grid.Column="4">bottomright</Label>-->
     </Grid>
 
 </Window>

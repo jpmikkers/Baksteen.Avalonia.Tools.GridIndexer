@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridIndexerDemo", "Demo\GridIndexerDemo.csproj", "{072AE2FC-D804-46FE-B150-8241657C4D84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baksteen.Avalonia.Tools.GridIndexer", "Baksteen.Avalonia.Tools.GridIndexer\Baksteen.Avalonia.Tools.GridIndexer.csproj", "{A64AA37D-3E5E-4DBD-9D0C-8DDE7EFBE438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{072AE2FC-D804-46FE-B150-8241657C4D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072AE2FC-D804-46FE-B150-8241657C4D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072AE2FC-D804-46FE-B150-8241657C4D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072AE2FC-D804-46FE-B150-8241657C4D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64AA37D-3E5E-4DBD-9D0C-8DDE7EFBE438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64AA37D-3E5E-4DBD-9D0C-8DDE7EFBE438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64AA37D-3E5E-4DBD-9D0C-8DDE7EFBE438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64AA37D-3E5E-4DBD-9D0C-8DDE7EFBE438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6964EAF4-A652-48D5-9E83-0A04985B3D1A}
+	EndGlobalSection
+EndGlobal

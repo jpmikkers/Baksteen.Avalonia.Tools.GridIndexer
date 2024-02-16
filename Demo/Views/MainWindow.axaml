@@ -1,0 +1,59 @@
+<Window
+    x:Class="GridIndexerDemo.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:ex="using:Baksteen.Avalonia.Tools.GridIndexer"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:GridIndexerDemo.ViewModels"
+    Title="GridIndexerDemo"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    x:DataType="vm:MainWindowViewModel"
+    Icon="/Assets/avalonia-logo.ico"
+	FontSize="20"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <!--
+            This only sets the DataContext for the previewer in an IDE,
+            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs)
+        -->
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*,*,*,*,*,*,*">
+			
+        <Label Foreground="Green" ex:GI.Column="0" ex:GI.Row="0">·A</Label>
+        <Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+		<Label ex:GI.Column="+1" ex:GI.Row="+1">→↓A</Label>
+
+		<Label Foreground="Green" ex:GI.Column="4" ex:GI.Row="6">·B</Label>
+		<Label ex:GI.Row="+1">↓B</Label>
+		<Label ex:GI.Row="+1">↓B</Label>
+		<Label ex:GI.Row="+1">↓B</Label>
+		<Label ex:GI.Row="+1">↓B</Label>
+		<Label ex:GI.Column="-1">←B</Label>
+		<Label ex:GI.Column="-1">←B</Label>
+		<Label ex:GI.Column="-1">←B</Label>
+		<Label ex:GI.Row="-1">↑B</Label>
+		<Label ex:GI.Row="-1">↑B</Label>
+		<Label ex:GI.Row="-1">↑B</Label>
+		<Label ex:GI.Row="-1">↑B</Label>
+		<Label ex:GI.Column="+1">→B</Label>
+		<Label ex:GI.Column="+1">→B</Label>
+
+		<!--<Label Grid.Row="0" Grid.Column="0">lefttop</Label>
+        <Label Grid.Row="2" Grid.Column="2">center</Label>
+        <Label Grid.Row="4" Grid.Column="4">bottomright</Label>-->
+    </Grid>
+
+</Window>
